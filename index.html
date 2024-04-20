@@ -14,15 +14,31 @@
         <nav class="header-nav">
             <ul class="header-menu">
                 <li class="header-item"><a href="" class="header-link">Студія</a></li>
+                
                 <li class="header-item"><a href="" class="header-link">Портфоліо</a></li>
                 <li class="header-item"><a href="" class="header-link">Контакти</a></li>
             </ul>
             <ul class="header-menu">
-                <li class="header-item"><a href="" class="header-link">info@devstudio.com</a></li>
+                <li class="header-item"><a class="header-link-modal"  data-modal-open>info@devstudio.com</a></li>
+                <div class="modal is-hidden" data-modal>
+                    <div class="modal1"> <button class="button" data-modal-close>Close</button></div>
+                    <form action="" class="form">
+                        <h3 class="register-logo">Leave your details, we will call you back</h3>
+                        <input type="text" name="form-text" placeholder="Name" class="register">
+                        <input type="email" name="form-text" placeholder="Your email" class="register">
+                        <input type="password" name="form-text" placeholder="Your password" class="register">
+                        <input type="text" name="form-text" placeholder="Your comment" class="register-comment">
+                        <label class="checkbox-text">
+                            <input type="checkbox" class="register-checkbox">
+                            I agree with the mailing and accept it <u class="term">Сontract terms</u>
+                          </label>
+                    </form></div>
+        
+                </div>
                 <li class="header-item"><a href="" class="header-link">+38 096 111 11 11</a></li>
             </ul>
         </nav>
-        
+        <script src="./script.js"></script>
     </header>
   
     <main>

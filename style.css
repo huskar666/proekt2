@@ -115,3 +115,104 @@ justify-content: space-around;
 justify-content: space-around;
 color: gray;
 }
+.button{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: rgb(121, 164, 255);
+    font-family: roboto;
+    height: 50px;
+    width: 100px;
+    font-size: smaller;
+    position: absolute;
+    left: 200px;
+    top: 515px;
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+.modal1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255);
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    
+}
+.is-hidden{
+opacity: 0;
+pointer-events: none;
+}
+.modal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+     padding: 10px;
+     min-height: 600px;
+     min-width: 500px;
+     transform: translate(-50%, -50%);
+     border-radius: 70px;
+     text-align: center;
+    transition: all 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.header-link-modal{
+    color: black;
+    font-family: Roboto;
+ text-decoration: none;
+}
+
+.header-link-modal:hover{
+    color: rgb(121, 164, 255);
+    font-family: Roboto;
+ text-decoration: none;
+}
+.form{
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;     
+ }
+ .register{
+    font-family: roboto;
+    margin-bottom: 25px;
+    border: 2px solid lightgray;
+    width: 370px;
+    height: 24px;
+    border-radius: 3px;
+ }
+ .register-comment{
+    font-family: roboto;
+    margin-bottom: 20px;
+    border: 2px solid lightgray;
+    width: 370px;
+    height: 140px;
+    border-radius: 3px;
+ }
+ .register-logo{
+    font-family: roboto;
+    margin-bottom: 40px;
+ }
+ .term{
+    color: rgb(121, 164, 255);
+    font-family: roboto;
+ }
+.register-checkbox{
+    font-family: roboto;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.checkbox-text{
+    font-family: roboto;
+    font-size:  small;
+    
+}
